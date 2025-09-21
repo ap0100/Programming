@@ -156,7 +156,7 @@ int main()
 
     duration<double> time1=f1-s1, time2=f2-s2, time3=f3-s3, time4=f4-s4;
 
-    cout << setprecision(8) << "selection sort runtime: " << time1.count() << '\n' << "insertion sort runtime: " << time2.count() << '\n' << "merge sort runtime: " << time3.count() << '\n' << "quick sort runtime: " << time4.count();
+    cout << setprecision(5) << "selection sort runtime: " << time1.count() << '\n' << "insertion sort runtime: " << time2.count() << '\n' << "merge sort runtime: " << time3.count() << '\n' << "quick sort runtime: " << time4.count();
 
     return 0;
 }
