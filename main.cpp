@@ -10,7 +10,7 @@ int container=0;
 
 //---------------------------------------------------------------------------
 
-//SELECTION SORT
+
 void selectionSort(vector<int> arr, int n){
     int minValIndex=0;
 
@@ -31,7 +31,6 @@ void selectionSort(vector<int> arr, int n){
 //---------------------------------------------------------------------------
 
 
-//INSERTION SORT
 void insertionSort(vector<int> &arr, int n){
     int currentIndex=0;
 
@@ -53,7 +52,6 @@ void insertionSort(vector<int> &arr, int n){
 //---------------------------------------------------------------------------
 
 
-//MERGE SORT
 void mergeArrays(vector<int> &arr, int l, int m, int r){
     int lSize=m-l+1, rSize=r-m;
     vector<int> left(lSize), right(rSize);
@@ -98,7 +96,6 @@ void mergeSort(vector<int> &arr, int l, int r){
 //---------------------------------------------------------------------------
 
 
-//QUICK SORT
 int findPartitionIndex(vector<int> &arr, int s, int l){
     int pivot=arr[l];
     int i=s;
