@@ -1,1 +1,1 @@
-Programiranje domashni, MIG III-1
+Programiranje homework, MIG III-1
