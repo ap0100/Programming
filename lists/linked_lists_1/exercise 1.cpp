@@ -2,16 +2,16 @@
 
 struct Node {
     int value;
-    Node *next;
+    Node *next=nullptr;
 };
 
 struct linkedList {
-    Node *head;
+    Node *head=nullptr;
 };
 
 void addNode(Node*, int);
 void insertNodeSorted(linkedList&, int);
-void outputList(linkedList);
+void outputList(const linkedList&);
 
 void addNode(Node* node, int val) {
     Node *newNode = new Node();
@@ -20,7 +20,7 @@ void addNode(Node* node, int val) {
     node->next=newNode;
 }
 
-void insertNodeSorted(linkedList& l, int val) {
+void insertNodeSorted(linkedList &l, int val) {
     Node *p = l.head;
     if (val < p->value) {
         Node *newNode = new Node();
@@ -40,7 +40,11 @@ void insertNodeSorted(linkedList& l, int val) {
     addNode(p, val);
 }
 
-void outputList(linkedList l) {
+void outputList(const linkedList &l) {
+    if (!l.head) {
+        std::cout << "List is empty";
+        return;
+    }
     Node *p = l.head;
     while (p) {
         std::cout << p->value << " ";
@@ -56,9 +60,10 @@ int main() {
     std::cout << "Enter list of numbers: " << '\n';
     std::cin >> input;
 
-    List.head = new Node();
-    List.head->value=input;
-    List.head->next=nullptr;
+    if (input) {
+        List.head = new Node();
+        List.head->value=input;
+    }
 
     while (std::cin>>input) {
         insertNodeSorted(List, input);
