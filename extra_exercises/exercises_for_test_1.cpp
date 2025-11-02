@@ -11,18 +11,23 @@ struct Node {
     char value;
 };
 
-struct Stack {
-    Node *head=new Node(); //dummy node
-    int size=0;
+struct Queue {
+    Node *head;
+    int size;
+
+    Queue() {
+        head=nullptr;
+        size=0;
+    }
 
     char top() {
-        if (size==0) cout << "Stack is empty" << '\n';
+        if (size==0) cout << "Queue is empty" << '\n';
         return head->value;
     }
 
     void pop() {
         if (size==0) {
-            cout << "Stack is empty" << '\n';
+            cout << "Queue is empty" << '\n';
             return;
         }
 
@@ -34,9 +39,16 @@ struct Stack {
 
     void push(char val) {
         Node *newNode=new Node();
-        newNode->next=head;
+        newNode->next=nullptr;
         newNode->value=val;
-        head=newNode;
+
+        if (!head) head=newNode;
+        else {
+            Node *p=head;
+            while (p->next) p=p->next;
+            p->next=newNode;
+        }
+
         size++;
     }
 
@@ -45,30 +57,39 @@ struct Stack {
     }
 };
 
-void processInput(string &input, Stack &s) {
-    for (int i=input.length()-1; i>=0; i--) {
-        s.push(input[i]);
+void processInput(string &input, Queue &s) {
+    for (char &c : input) {
+        s.push(c);
     }
 }
 
-int computeInput(Stack &s) {
-    int result=0;
-    char current;
-    char sign;
+int computeInput(Queue &s) {
+    int result=0, lastResult=0;
+    char current, sign='/', lastSign='/';// '/' is given as default for sign and lastSign, it's a random character/invalid operation, not + or -
+
     while (!s.empty()) {
         current=s.top();
 
-        if (current!='+' && current!='-' && current!='(' && current!=')') {
-            if (sign=='+') result+=static_cast<int>(current)-48;
-            else if (sign=='-') result-=static_cast<int>(current)-48;
+       if (current=='+' || current=='-'){
+            sign=current;
+       }else if (current=='('){
+            lastResult=result;
+            lastSign=sign;
+            result=0;
+            sign='/';
+       }else if (current==')'){
+            lastSign=='-' ? lastResult-=result : lastResult+=result;
+            result=lastResult;
+            lastResult=0;
+            lastSign='/';
+            sign='/';
+       }else {
+            if (sign=='-') result-=static_cast<int>(current)-48;
             else result+=static_cast<int>(current)-48;
-        }
-        else {
-            if (current=='+') sign='+';
-            else if (current=='-') sign='-';
-            else if (current=='(') sign='(';
-            else sign=')';
-        }
+       }
+
+       // cout << current << " | " << "result: " << result << " " << lastResult << " sign: " << sign << " lastSign: " << lastSign << '\n';
+
         s.pop();
     }
 
@@ -82,7 +103,7 @@ int main() {
     //-se vnesuva izraz, string (ili specifichno niza od chars)
     //-output e samo rezultatot od presmetaniot izraz, sekako da bide cel broj
     string input;
-    Stack s;
+    Queue s;
 
     getline(cin, input);
     processInput(input, s);
