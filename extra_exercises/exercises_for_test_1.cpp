@@ -4,7 +4,7 @@
 #include <cstring>
 using namespace std;
 
-//Zad. 3 od testot od '25 - Simple Calcualtor
+//Zad. 3 od testot od '25 - Simple Calculator
 /*
 struct Node {
     Node *next;
