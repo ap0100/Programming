@@ -1,0 +1,48 @@
+0: all; and; ask; about; at; always; answer; able; air; any; as; again; around; age; also; action; alone; against; anything; army; after; almost; across; art; away; already; apple; address; airport; accident; another; above; arm; ago; along; add; among; act; appear; afternoon; agree; actor; angry; article; account; amount; accept; advance; available; advantage; attack; arrange; arrive; animal; afraid; admire; allow; adventure; although; attempt; area; asleep; admit; attend; attitude; average; 
+
+1: boy; book; brother; be; body; between; before; but; black; better; back; best; because; big; box; breakfast; bus; bad; bed; buy; bread; bring; beautiful; become; blue; building; baby; blood; business; believe; both; begin; behind; bear; built; break; busy; bridge; bottle; build; bird; bank; brown; bag; boat; borrow; butter; below; born; beer; board; battle; bottom; bill; breathe; bath; branch; brave; belong; 
+
+2: car; cat; can; child; chair; careful; cry; clear; country; clean; close; cinema; cheese; cold; come; could; chance; call; cut; camera; city; class; change; continue; company; church; cover; culture; catch; corner; control; chief; carry; confirm; care; cost; cause; certain; clock; colour; computer; cross; card; central; choose; crazy; cup; century; consider; case; collect; condition; chicken; common; check; course; court; coffee; choice; cake; customer; cloth; coat; cheap; cloud; comfortable; crowd; chocolate; captain; centre; coast; cream; club; college; cigarette; cottage; clothes; correct; calm; copy; circle; count; climb; complete; coin; comfort; cook; character; careless; chain; coal; consist; contain; charge; certainly; crime; 
+
+3: day; dog; drink; door; dance; do; dream; daughter; doctor; document; dinner; down; dress; difficult; drive; dead; desert; decision; distance; dear; die; deep; describe; dry; different; desk; direction; dollar; during; decide; dangerous; dark; draw; direct; depend; discuss; detail; date; destroy; dirty; damage; dust; deal; demand; design; degree; department; double; dish; death; discover; divide; drop; defend; delay; declare; doubt; duty; 
+
+4: end; eye; easy; everything; each; eight; eat; egg; explain; evening; enjoy; expensive; example; education; every; east; enough; expect; earth; ear; even; ever; exchange; examine; edge; early; effect; especially; enter; everywhere; except; exercise; engine; enemy; expression; escape; earn; express; effort; equal; event; exact; experience; either; 
+
+5: family; first; father; face; friend; for; from; find; fire; free; food; full; flower; feel; fast; few; fight; fact; film; fish; fruit; floor; field; fall; fine; fly; form; finish; future; finger; famous; favourite; follow; factory; farm; front; forget; foreign; funny; fresh; fat; foot; farmer; flat; fail; 
+
+6: go; girl; good; game; give; get; great; garden; green; gold; group; garage; glad; glass; gift; general; government; grow; ground; gentleman; guide; gas; gate; gentle; goal; guess; guest; gun; grey; guard; 
+
+7: home; he; help; her; his; hand; head; have; happy; house; how; here; hope; hard; hour; high; heart; hear; half; happen; hold; holiday; hair; hotel; hospital; hungry; history; hat; hate; husband; horse; hole; hot; hide; heavy; health; 
+
+8: it; in; if; inside; important; idea; information; interesting; ill; impossible; island; interest; invite; industry; into; include; ice; illness; inform; imagine; immediately; increase; introduce; insect; image; improve; interview; individual; illegal; injure; independent; instrument; indeed; intelligent; import; international; instead; iron; influence; 
+
+9: job; juice; journey; just; jump; joke; join; jacket; 
+
+10: know; kind; keep; key; kitchen; knife; kill; 
+
+11: learn; life; land; live; light; long; like; leave; letter; late; look; let; love; little; line; low; less; lesson; language; large; left; law; listen; last; lie; lake; laugh; lose; leg; leader; 
+
+12: man; morning; my; many; more; money; make; may; move; mother; meet; much; month; member; most; must; miss; moment; minute; milk; meeting; meat; material; mind; magazine; mark; mean; music; market; mistake; moon; message; meal; map; marry; machine; main; mine; modern; marriage; middle; mountain; match; metal; medicine; measure; 
+
+13: name; new; no; now; need; nothing; next; never; number; not; near; nature; nice; night; nose; newspaper; necessary; nervous; noise; 
+
+14: one; open; or; often; out; old; on; only; own; other; office; order; over; off; once; orange; ocean; oil; obtain; object; opinion; outside; operation; opposite; offer; 
+
+15: people; play; paper; please; pen; place; park; person; picture; pay; problem; peace; popular; prefer; put; page; police; pretty; phone; price; plan; possible; position; present; part; president; product; public; personal; player; power; provide; pencil; parent; post; piece; protect; party; pink; pull; past; produce; pass; plate; poor; patient; perhaps; purpose; perfect; plane; private; plant; prepare; prison; paint; pleasure; pain; probably; petrol; proud; peaceful; practise; path; parcel; pair; promise; passenger; press; plenty; profit; pleasant; point; perform; plain; prize; pity; prove; pound; politics; pour; pile; 
+
+16: question; quite; quick; quiet; 
+
+17: read; room; rich; road; ready; river; run; right; red; reach; rest; remember; real; result; return; record; round; receive; reason; rather; remain; report; rain; rock; race; reply; ring; remove; radio; respect; rise; really; ride; request; restaurant; repeat; rice; relationship; replace; responsible; recently; refuse; religion; repair; regular; rule; reduce; recent; row; risk; raise; roll; rush; regard; rough; 
+
+18: school; speak; say; start; she; show; son; stop; student; second; soon; ship; shop; sit; same; see; send; small; so; some; stone; such; set; should; stand; street; study; sad; spring; star; sister; sun; save; sea; something; sleep; sweet; several; sound; story; sorry; strong; service; shall; stay; side; south; seat; single; system; simple; summer; search; sport; since; slow; smile; snow; sugar; sell; similar; speed; secret; song; shoe; station; sure; sharp; sometimes; still; sense; short; state; situation; success; season; sick; size; sky; smart; salt; special; seem; skirt; strange; science; serious; spend; society; square; step; store; successful; swim; shape; silver; smoke; subject; supply; serve; shoulder; somewhere; space; sign; support; share; steal; secretary; sing; soft; soldier; surface; safe; suddenly; suit; shut; smell; straight; score; shoot; speech; smooth; spread; suggest; series; spoil; spot; 
+
+19: the; this; today; they; two; that; table; thing; there; think; time; teacher; take; tell; together; try; talk; then; too; their; true; through; town; tree; tea; ticket; travel; than; television; test; tall; turn; though; tomorrow; thank; teach; train; tired; temperature; top; touch; taste; trip; these; those; trust; third; thick; type; trade; toilet; trouble; thin; 
+
+20: understand; up; under; use; usual; upon; uncle; university; usually; useful; until; 
+
+21: very; visit; voice; view; valley; virus; value; vegetable; village; various; variety; vote; 
+
+22: word; what; want; where; we; why; write; work; wait; water; with; woman; world; week; way; wife; who; which; window; walk; well; watch; when; while; would; will; war; welcome; weather; winter; warm; wrong; win; wash; wall; without; wonderful; wish; wild; wood; whose; west; 
+
+24: you; yes; your; yesterday; year; young; 
+

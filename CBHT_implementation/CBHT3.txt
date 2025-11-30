@@ -1,0 +1,246 @@
+3: English; 
+
+4: bad; 
+
+5: be; 
+
+6: add; 
+
+7: bag; 
+
+8: bed; 
+
+10: age; dead; 
+
+11: he; face; 
+
+13: if; each; back; 
+
+14: head; ice; 
+
+15: can; idea; big; die; 
+
+16: and; able; egg; cake; 
+
+17: do; edge; 
+
+18: as; deal; 
+
+19: car; at; 
+
+20: end; go; glad; ago; 
+
+21: cat; in; sad; ear; act; area; leg; 
+
+22: all; dance; game; sea; card; bear; hide; 
+
+23: dog; hand; eat; care; tea; race; half; lie; 
+
+24: read; job; black; red; call; need; feel; dear; decide; case; off; gas; bank; fat; fail; 
+
+25: man; air; peace; page; bread; check; damage; calm; lake; 
+
+26: we; see; make; chief; deep; fact; baby; date; hat; beer; 
+
+27: day; it; no; land; again; on; hard; fall; nice; meal; map; safe; bath; coal; 
+
+28: ask; her; life; chance; old; high; hear; cheap; 
+
+29: name; she; find; get; arm; mean; bird; gate; 
+
+30: the; clean; cold; reach; free; ill; catch; dark; fine; image; hate; chain; 
+
+31: one; child; or; few; field; agree; rice; goal; bill; 
+
+32: eye; pen; place; come; so; have; change; real; here; begin; break; ride; hair; teach; defend; 
+
+33: his; like; take; garage; keep; side; piece; once; ocean; oil; law; main; afraid; death; 
+
+34: chair; rich; road; clear; same; kind; fire; gold; late; let; near; coffee; boat; farm; club; earn; climb; 
+
+35: table; up; camera; desk; meat; hold; coat; demand; cream; board; indeed; flat; 
+
+36: my; dream; for; may; food; art; blue; film; line; behind; mind; pain; dish; hole; charge; 
+
+37: home; help; good; any; become; cup; choice; joke; mine; coin; 
+
+38: send; box; rain; fish; key; office; gift; sick; large; seem; degree; pile; 
+
+39: boy; book; new; cinema; cheese; pay; give; meet; bus; plan; wife; clock; than; mark; effect; war; bridge; left; space; gun; leader; 
+
+40: but; leave; talk; week; hope; above; fly; knife; kill; pair; cook; hot; match; branch; 
+
+41: cut; set; much; east; seat; milk; both; tall; guide; path; middle; declare; 
+
+42: say; girl; body; park; best; alone; fast; use; even; draw; radio; depend; accept; delay; admit; 
+
+43: cry; time; also; juice; garden; save; how; then; who; rock; walk; blood; shoe; plane; build; advance; win; escape; trade; brave; crime; 
+
+44: eight; live; long; green; cause; dry; tree; ring; sell; speed; along; shape; wall; animal; circle; admire; join; laugh; wild; jacket; 
+
+45: learn; son; that; before; sit; tell; after; buy; bring; fight; apple; since; among; detail; born; sign; year; sing; offer; 
+
+46: open; easy; great; yes; price; way; away; which; not; pink; ever; when; chicken; machine; share; thick; metal; guard; 
+
+47: speak; more; such; full; too; shall; earth; heart; low; rise; wash; divide; plain; lose; raise; regard; thin; 
+
+48: what; door; ready; ship; from; some; search; well; form; salt; engine; top; last; exact; health; 
+
+49: many; close; now; wait; because; voice; class; look; own; plate; thank; nose; object; parcel; drop; belong; 
+
+50: play; friend; run; could; member; love; watch; uncle; cloud; attack; reduce; speech; 
+
+51: drink; paper; there; light; move; sun; part; accident; imagine; song; pass; less; appear; warm; science; tired; illegal; fresh; equal; grey; 
+
+52: this; father; please; small; down; sleep; past; while; will; sky; actor; design; college; below; these; rule; steal; breathe; asleep; foot; iron; average; 
+
+53: why; thing; out; stand; city; teacher; drive; phone; army; island; cost; pencil; glass; smile; believe; direct; cloth; finger; moon; night; spend; replace; coast; double; row; risk; wood; roll; 
+
+54: about; they; want; where; second; inside; shop; put; police; star; into; remain; happen; orange; battle; third; medicine; 
+
+55: two; often; view; church; their; general; order; size; hotel; paint; obtain; copy; wish; farmer; score; 
+
+56: word; action; with; miss; quick; dollar; over; jump; value; early; step; available; soft; smell; heavy; 
+
+57: room; right; think; record; under; public; describe; pull; sharp; sense; enter; train; captain; enemy; arrange; gentle; doubt; noise; spread; 
+
+58: you; dinner; rest; cover; hour; plant; special; crowd; smoke; allow; attend; vote; 
+
+59: know; careful; soon; next; never; already; choose; exchange; grow; sure; built; finish; repeat; centre; trip; recent; either; 
+
+60: family; today; dress; try; receive; carry; true; single; test; poor; state; music; language; angry; dust; swim; taste; horse; 
+
+61: show; happy; woman; stay; other; include; floor; sugar; article; peaceful; repair; village; event; 
+
+62: prefer; water; only; ticket; upon; market; message; touch; husband; those; type; rush; 
+
+63: people; work; house; most; certain; address; collect; busy; kitchen; modern; west; 
+
+64: better; enjoy; against; enough; rather; secret; examine; insect; cottage; serve; effort; marriage; shut; rough; 
+
+65: desert; month; slow; forget; suit; instead; pound; whose; 
+
+66: school; stop; very; reason; just; post; central; meeting; increase; perfect; smart; advantage; guess; surface; pity; pour; duty; spoil; spot; 
+
+67: first; between; river; money; around; quite; sweet; world; corner; distance; round; expect; number; during; snow; still; common; really; holiday; season; except; brown; quiet; arrive; foreign; guest; 
+
+68: stone; sound; simple; town; parent; crazy; magazine; bottle; refuse; front; count; character; 
+
+69: doctor; evening; example; across; must; cross; fruit; inform; usual; turn; welcome; famous; proud; point; prize; contain; series; 
+
+70: write; decision; every; building; would; account; marry; vegetable; 
+
+71: remember; confirm; player; valley; reply; material; mistake; dirty; injure; until; prove; 
+
+72: group; power; little; travel; remove; court; prepare; skirt; wrong; store; press; shoot; 
+
+73: start; should; mother; flower; invite; nature; though; ground; weather; chocolate; listen; subject; 
+
+74: answer; problem; visit; explain; breakfast; letter; almost; service; moment; another; similar; careless; 
+
+75: always; several; party; your; produce; short; course; square; clothes; correct; regular; funny; soldier; toilet; measure; 
+
+76: daughter; minute; perhaps; 
+
+77: spring; strange; follow; young; 
+
+78: south; colour; different; patient; lesson; amount; useful; profit; 
+
+79: brother; consider; respect; silver; cigarette; bottom; 
+
+80: nothing; company; exercise; petrol; butter; pleasant; influence; 
+
+81: person; street; difficult; factory; religion; complete; 
+
+82: provide; window; success; gentleman; 
+
+83: morning; education; summer; sport; illness; winter; probably; practise; comfort; 
+
+84: study; sister; virus; private; although; perform; smooth; 
+
+85: picture; future; prison; borrow; opinion; import; 
+
+86: report; plenty; outside; trouble; 
+
+87: document; strong; discuss; hungry; discover; 
+
+88: beautiful; direction; promise; attempt; 
+
+89: result; possible; pleasure; society; 
+
+90: return; together; anything; present; control; product; sorry; through; airport; protect; 
+
+91: station; improve; suggest; 
+
+92: popular; story; personal; hospital; consist; attitude; 
+
+93: continue; culture; trust; variety; 
+
+94: condition; recently; shoulder; straight; experience; 
+
+95: system; dangerous; individual; passenger; politics; 
+
+96: student; suddenly; 
+
+97: especially; 
+
+98: pretty; request; various; certainly; 
+
+99: century; afternoon; destroy; comfortable; serious; independent; express; mountain; 
+
+100: business; introduce; necessary; 
+
+101: journey; something; president; adventure; 
+
+102: interest; somewhere; 
+
+103: computer; purpose; supply; 
+
+104: usually; operation; 
+
+105: immediately; secretary; 
+
+106: customer; department; 
+
+107: history; nervous; opposite; 
+
+108: favourite; newspaper; 
+
+109: country; impossible; position; sometimes; without; wonderful; 
+
+110: understand; expensive; 
+
+112: question; 
+
+113: yesterday; 
+
+116: interview; intelligent; 
+
+117: important; 
+
+118: successful; support; 
+
+119: situation; 
+
+120: television; 
+
+122: industry; 
+
+123: everything; information; government; responsible; 
+
+124: everywhere; 
+
+127: restaurant; 
+
+129: interesting; tomorrow; 
+
+131: temperature; 
+
+134: relationship; expression; 
+
+139: international; 
+
+143: instrument; 
+
+152: university; 
+
