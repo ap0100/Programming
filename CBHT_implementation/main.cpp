@@ -13,7 +13,7 @@ struct Node {
     Node(const string& input) {
         this->value=input;
         for (auto& ch : input) {
-            if (ch>='A' && ch<='Z') this->key+=static_cast<char>(ch-('a'-'A'));
+            if (ch>='A' && ch<='Z') this->key+=static_cast<char>(ch+('a'-'A'));
             else this->key+=ch;
         }
         this->next=nullptr;
@@ -113,7 +113,7 @@ int main() {
 
     string word;
     while (inputFile >> word) {
-        hash_word(&CBHT1,word, 1);
+        hash_word(&CBHT1, word, 1);
         hash_word(&CBHT2, word, 2);
         hash_word(&CBHT3, word, 3);
         hash_word(&CBHT4, word, 4);
