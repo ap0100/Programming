@@ -4,7 +4,7 @@
 using namespace std;
 
 void increment_coin(int &coin, vector<pair<int, int>> &combination) {
-    for (auto &c: combination) if (c.first==coin) c.second++;
+    for (vector<pair<int,int>> &c: combination) if (c.first==coin) c.second++;
 }
 
 bool is_equal(vector<pair<int,int>> &v1, vector<pair<int,int>> &v2) {
@@ -38,14 +38,14 @@ vector<vector<pair<int, int>>> change_combinations(int change, vector<int> &coin
     vector<vector<pair<int, int>>> combinations;
 
     vector<pair<int, int>> zero;
-    for (auto c: coins) zero.push_back({c,0});
+    for (auto &c: coins) zero.push_back({c,0});
 
     if (change==0) combinations.push_back(zero);
     else {
-        for (int c: coins) {
+        for (int &c: coins) {
             if ((change-c)>=0) {
-                auto s=change_combinations((change-c), coins);
-                for (auto combination : s) {
+                vector<vector<pair<int, int>>> s=change_combinations((change-c), coins);
+                for (vector<pair<int,int>> &combination : s) {
                     increment_coin(c, combination);
                     combinations.push_back(combination);
                 }
@@ -63,7 +63,7 @@ int main() {
     vector<int> coins;
     int coin, change;
 
-    cout << "enter valid coins (pres any character to end input): " << '\n';
+    cout << "enter valid coins (press any non-integer character to end input): " << '\n';
     while (cin >> coin) coins.push_back(coin);
     sort(coins.begin(), coins.end());
 

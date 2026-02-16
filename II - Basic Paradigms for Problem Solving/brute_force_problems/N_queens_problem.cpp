@@ -7,7 +7,7 @@ using namespace std;
 using namespace std::chrono;
 
 bool can_place_queen(vector<int> &board) {
-    for (int i=0; i<board.size(); i++)
+    for (int i=0; i<board.size()-1; i++)
         for (int j = i+1; j<board.size(); j++)
             //proveruva dali se vo ista kolona ili dijagonala
             if (board[i]==board[j] || abs(board[i]-board[j])==abs(i-j)) return false;

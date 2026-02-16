@@ -82,10 +82,10 @@ int calculate_distance_2(tuple<int, int, int> &a, tuple<int, int, int> &b) {
 int split(vector<tuple<int, int, int>> &P) {
     if (P.size()<=3) {
         int d=INT_MAX;
-        for (int i=0; i<P.size()-1; i++) {
+        for (int i=0; i<P.size()-1; i++)
             for (int j=i+1; j<P.size(); j++)
                 d=min(calculate_distance_2(P[i],P[j]), d);
-        }
+        
         return d;
     }
 
@@ -118,7 +118,7 @@ int merge_3d(vector<tuple<int, int, int>> &arr, int l, int r, int m) {
     }
 
     sort(strip.begin(), strip.end(), [](const tuple<int, int, int> &a , const tuple<int, int, int> &b) {
-       return get<1>(a)<get<1>(b);
+       return get<1>(a) < get<1>(b);
     });
 
     for (int i=0; i<strip.size()-1; i++) {
