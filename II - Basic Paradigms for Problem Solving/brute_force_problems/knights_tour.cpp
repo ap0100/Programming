@@ -2,6 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <tuple>
 using namespace std;
 
 int count_possible_onward_moves(vector<vector<int>> &board, int x_moves[], int y_moves[], int x, int y) {
@@ -27,7 +28,7 @@ vector<tuple<int,int,int>> get_best_moves(vector<vector<int>> &board, int x_move
     }
 
     sort(best_moves.begin(), best_moves.end(), [](const tuple<int,int,int> &a, const tuple<int,int,int> &b) {
-         return get<2>(a) < get<2>(b); //sorts in descending order
+         return get<2>(a) < get<2>(b); //sorts in ascending order
     });
 
     return best_moves;
@@ -38,9 +39,10 @@ bool warnsdorff_track_moves(vector<vector<int>> &board, int x, int y, int move_c
 
     int x_moves[8]={2,1,-2,-1,2,1,-2,-1},
         y_moves[8]={1,2,1,2,-1,-2,-1,-2};
+
     vector<tuple<int,int,int>> moves=get_best_moves(board, x_moves, y_moves, x, y);
 
-    for (tuple<int,int,int> &move: moves) {
+    for (int i=0; i<moves.size(); i++) {
         int next_x=get<0>(moves[i]);
         int next_y=get<1>(moves[i]);
         board[next_x][next_y]=move_count;
