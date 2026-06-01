@@ -22,6 +22,7 @@ int main() {
     /*M-budget, C-broj razlichni parchinja shto trb da se kupat, K-cenite, od sekoj model trb tochno edno*/
     cin >> m >> c;
 
+    int ans=0;
     vector<vector<int>> prices(c);
     for (int i=0; i<c; i++) {
         cin >> k;
@@ -29,29 +30,31 @@ int main() {
         for (int j=0; j<k; j++) cin >> prices[i][j];
     }
 
+    //top-down/memoization
     vector p(m+1, vector(c, -1));
     vector visited(m+1, vector(c, false));
-    int ans=memo(m, 0, p, prices, visited);
+    ans=memo(m, 0, p, prices, visited);
     ans<0 ? cout << "no solution" : cout << ans;
     
 
     //bottom-up/tabulation
     vector dp(c+1, vector(m+1, 0));
-    p[0][0]=1;
+    dp[0][0]=1;
 
     for(int i=0; i<c; i++){
-        for(int j=0; j<m; j++){
-            if(!p[i][j]) continue;
-            for(int price: prices[i]) if(j+price<=m) p[i+1][j+price]=1;
+        for(int j=0; j<=m; j++){
+            if(!dp[i][j]) continue;
+            for(int price: prices[i]) if(j+price<=m) dp[i+1][j+price]=1;
         }
     }
 
     for(int i=m; i>=0; i--){
-        if(p[c][i]){
-            cout << i;
+        if(dp[c][i]){
+            ans=i;
             break;
         }
     }
+    ans<0 ? cout << "no solution" : cout << ans;
 
 
     return 0;
